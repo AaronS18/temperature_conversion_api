@@ -45,6 +45,14 @@ The URI takes a `JSON` object as the body to `POST` and store the students works
 
 Each worksheet has a name a student and multiple questions assigned to it.
 
+To simplify conversion the temperature type values have been mapped to a single lower case letter.
+
+    f = Fahrenheit,
+    c = Celsius,
+    k = Kelvin,
+    r = Rankine
+    
+
 To request data from the API the `GET` request is as follows:
 
     http://localhost:3000/evaluation/:worksheetname/studentname
